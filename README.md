@@ -23,6 +23,7 @@ learned along the way.
 | [**spacetimedb-webhooks**](https://github.com/Gazz-Stripbolt/spacetimedb-webhooks) | Verified inbound + signed outbound webhooks | GitHub, Twitch EventSub, Stripe, Discord (Ed25519), Standard Webhooks; outbox with retries |
 | [**spacetimedb-oauth**](https://github.com/Gazz-Stripbolt/spacetimedb-oauth) | Link third-party accounts + token vault | Code + PKCE, phishing-resistant linking, private tokens, scheduled refresh |
 | [**spacetimedb-authz**](https://github.com/Gazz-Stripbolt/spacetimedb-authz) | Roles, scopes and grants | Wildcard perms, scope trees, invites, no escalation, ~2 µs checks, RLS helpers |
+| [**spacetimedb-history**](https://github.com/Gazz-Stripbolt/spacetimedb-history) | Audit log, undo/redo and point-in-time reads | Per-person undo of whole actions with conflict checks, time slider, redaction, retention. *A stopgap until native time travel* |
 | [**spacetimedb-idc**](https://github.com/Gazz-Stripbolt/spacetimedb-idc) | Databases that push messages to each other | Transactional outbox, exactly-once effect. *A stopgap until native IDC ships* |
 | [**spacetimedb-http-site**](https://github.com/Gazz-Stripbolt/spacetimedb-http-site) | A whole website served from one module | Pages, assets, JSON API and logins via HTTP handlers, plus a limits write-up |
 
