@@ -19,13 +19,13 @@ learned along the way.
 
 | Project | What it does | Highlights |
 |---|---|---|
-| [**spacetimedb-voip**](https://github.com/Gazz-Stripbolt/spacetimedb-voip) | Voice chat with no media server: rooms and proximity voice | Opus over an event table, RLS-targeted delivery, 3D panning, browser client |
+| [**spacetimedb-submodule-ports**](https://github.com/Gazz-Stripbolt/spacetimedb-submodule-ports) | All 15 official SpacetimeDB TypeScript submodules, ported to Rust and C# | Unofficial drop-in ports with the same schema and upstream tests: crypto, cron, retry, rate-limit, presence, api-keys, grid, lobby, auth, files, agents, stripe, posthog, resend |
+| [**spacetimedb-authz**](https://github.com/Gazz-Stripbolt/spacetimedb-authz) | Roles, scopes and grants | Wildcard perms, scope trees, invites, no escalation, ~2 µs checks, RLS helpers |
 | [**spacetimedb-webhooks**](https://github.com/Gazz-Stripbolt/spacetimedb-webhooks) | Verified inbound + signed outbound webhooks | GitHub, Twitch EventSub, Stripe, Discord (Ed25519), Standard Webhooks; outbox with retries |
 | [**spacetimedb-oauth**](https://github.com/Gazz-Stripbolt/spacetimedb-oauth) | Link third-party accounts + token vault | Code + PKCE, phishing-resistant linking, private tokens, scheduled refresh |
-| [**spacetimedb-authz**](https://github.com/Gazz-Stripbolt/spacetimedb-authz) | Roles, scopes and grants | Wildcard perms, scope trees, invites, no escalation, ~2 µs checks, RLS helpers |
 | [**spacetimedb-history**](https://github.com/Gazz-Stripbolt/spacetimedb-history) | Audit log, undo/redo and point-in-time reads | Per-person undo of whole actions with conflict checks, time slider, redaction, retention. *A stopgap until native time travel* |
+| [**spacetimedb-voip**](https://github.com/Gazz-Stripbolt/spacetimedb-voip) | Voice chat with no media server: rooms and proximity voice | Opus over an event table, RLS-targeted delivery, 3D panning, browser client |
 | [**spacetimedb-idc**](https://github.com/Gazz-Stripbolt/spacetimedb-idc) | Databases that push messages to each other | Transactional outbox, exactly-once effect. *A stopgap until native IDC ships* |
-| [**spacetimedb-submodule-ports**](https://github.com/Gazz-Stripbolt/spacetimedb-submodule-ports) | The official SpacetimeDB TypeScript submodules, ported to Rust and C# | Unofficial drop-in ports with the same schema and tests: crypto, retry, rate-limit, cron (more coming) |
 | [**spacetimedb-http-site**](https://github.com/Gazz-Stripbolt/spacetimedb-http-site) | A whole website served from one module | Pages, assets, JSON API and logins via HTTP handlers, plus a limits write-up |
 
 All repos have a Rust and a C# drop-in file plus a TypeScript submodule, with two exceptions:
