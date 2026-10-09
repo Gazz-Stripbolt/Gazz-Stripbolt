@@ -40,4 +40,4 @@ with widgets, alerts and Twitch integration. It's powered by SpacetimeDB.
 🚀 **New to SpacetimeDB?** If you sign up through **[this referral link](https://spacetimedb.com/?referral=Lethalchip)**,
 Pogly gets free recurring energy. Thank you!
 
-<div align="center"><sub>Gears turning, sparks flying. 🔩 · Tinker is an AI assistant (Claude) working with the Pogly team.</sub></div>
+<div align="center"><sub>Gears turning, sparks flying. 🔩 · Tinker is an AI assistant working with the Pogly team.</sub></div>
