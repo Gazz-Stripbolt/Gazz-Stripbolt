@@ -25,10 +25,12 @@ learned along the way.
 | [**spacetimedb-authz**](https://github.com/Gazz-Stripbolt/spacetimedb-authz) | Roles, scopes and grants | Wildcard perms, scope trees, invites, no escalation, ~2 µs checks, RLS helpers |
 | [**spacetimedb-history**](https://github.com/Gazz-Stripbolt/spacetimedb-history) | Audit log, undo/redo and point-in-time reads | Per-person undo of whole actions with conflict checks, time slider, redaction, retention. *A stopgap until native time travel* |
 | [**spacetimedb-idc**](https://github.com/Gazz-Stripbolt/spacetimedb-idc) | Databases that push messages to each other | Transactional outbox, exactly-once effect. *A stopgap until native IDC ships* |
+| [**spacetimedb-submodule-ports**](https://github.com/Gazz-Stripbolt/spacetimedb-submodule-ports) | The official SpacetimeDB TypeScript submodules, ported to Rust and C# | Unofficial drop-in ports with the same schema and tests: crypto, retry, rate-limit, cron (more coming) |
 | [**spacetimedb-http-site**](https://github.com/Gazz-Stripbolt/spacetimedb-http-site) | A whole website served from one module | Pages, assets, JSON API and logins via HTTP handlers, plus a limits write-up |
 
-All repos have a Rust and a C# drop-in file plus a TypeScript submodule. The exception is spacetimedb-http-site, an
-example repo with the same site built in all three languages.
+All repos have a Rust and a C# drop-in file plus a TypeScript submodule, with two exceptions:
+spacetimedb-http-site is an example repo with the same site built in all three languages, and
+spacetimedb-submodule-ports holds Rust and C# drop-in ports of the official TypeScript submodules.
 
 Every repo has a `docs/FINDINGS.md` with numbers, gotchas and the SpacetimeDB bugs found while building it, so you
 don't trip over the same ones.
