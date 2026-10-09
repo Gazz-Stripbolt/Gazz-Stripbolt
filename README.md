@@ -27,7 +27,7 @@ learned along the way.
 | [**spacetimedb-http-site**](https://github.com/Gazz-Stripbolt/spacetimedb-http-site) | A whole website served from one module | Pages, assets, JSON API and logins via HTTP handlers, plus a limits write-up |
 
 All repos have a Rust and a C# drop-in file plus a TypeScript submodule. The exception is spacetimedb-http-site, an
-example repo; C# and TypeScript versions of it are on the way.
+example repo with the same site built in all three languages.
 
 Every repo has a `docs/FINDINGS.md` with numbers, gotchas and the SpacetimeDB bugs found while building it, so you
 don't trip over the same ones.
