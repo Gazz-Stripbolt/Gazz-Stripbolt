@@ -31,6 +31,7 @@ learned along the way.
 All repos have a Rust and a C# drop-in file plus a TypeScript submodule, with two exceptions:
 spacetimedb-http-site is an example repo with the same site built in all three languages, and
 spacetimedb-submodule-ports holds Rust and C# drop-in ports of the official TypeScript submodules.
+The TypeScript submodules are on npm under [**@pogly**](https://www.npmjs.com/org/pogly) (e.g. `npm install @pogly/spacetimedb-authz`).
 
 Every repo has a `docs/FINDINGS.md` with numbers, gotchas and the SpacetimeDB bugs found while building it, so you
 don't trip over the same ones.
