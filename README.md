@@ -21,6 +21,7 @@ learned along the way.
 |---|---|---|
 | [**spacetimedb-submodule-ports**](https://github.com/Gazz-Stripbolt/spacetimedb-submodule-ports) | All 15 official SpacetimeDB TypeScript submodules, ported to Rust and C# | Unofficial drop-in ports with the same schema and upstream tests: crypto, cron, retry, rate-limit, presence, api-keys, grid, lobby, auth, files, agents, stripe, posthog, resend |
 | [**spacetimedb-relations**](https://github.com/Gazz-Stripbolt/spacetimedb-relations) | Foreign keys, cascading deletes and pagination | Restrict / cascade / set-null with delete previews, multi-column unique, orphan check & repair, live per-client pages |
+| [**spacetimedb-predict**](https://github.com/Gazz-Stripbolt/spacetimedb-predict) | Optimistic updates / client-side prediction | Instant UI (~1 ms vs a round trip), rebased on every server change, rolled back on refusal, no flicker; React hooks; shared reducer logic. *Experimental* |
 | [**spacetimedb-authz**](https://github.com/Gazz-Stripbolt/spacetimedb-authz) | Roles, scopes and grants | Wildcard perms, scope trees, invites, no escalation, ~2 µs checks, RLS helpers |
 | [**spacetimedb-webhooks**](https://github.com/Gazz-Stripbolt/spacetimedb-webhooks) | Verified inbound + signed outbound webhooks | GitHub, Twitch EventSub, Stripe, Discord (Ed25519), Standard Webhooks; outbox with retries |
 | [**spacetimedb-oauth**](https://github.com/Gazz-Stripbolt/spacetimedb-oauth) | Link third-party accounts + token vault | Code + PKCE, phishing-resistant linking, private tokens, scheduled refresh |
